@@ -1,10 +1,10 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "db365wil",
+    name: "도봉구 영유아 복지정보자료집",
     image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "Kid Welfare Information Library",
-    bio: "This data is produced with comprehensive information to help the healthy growth of infants and toddlers in Dobong-gu. For more information, please contact your service provider.",
+    role: "도봉구 영유아 복지 서비스 정보집",
+    bio: "도봉구 영유아의 건강한 성장을 돕기 위한 종합적인 정보를 담아 제작된 자료입니다. 자세한 내용은 서비스 제공 기관에 문의하시기 바랍니다.",
     email: "chanyoung@develop136.com",
     linkedin: "",
     github: "",
