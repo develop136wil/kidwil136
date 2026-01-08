@@ -1,37 +1,37 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "morethanmin",
+    name: "db365wil",
     image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "frontend developer",
-    bio: "I develop everything using node.",
-    email: "morethanmin.dev@gmail.com",
-    linkedin: "morethanmin",
-    github: "morethanmin",
+    role: "Kid Welfare Information Library",
+    bio: "This data is produced with comprehensive information to help the healthy growth of infants and toddlers in Dobong-gu. For more information, please contact your service provider.",
+    email: "chanyoung@develop136.com",
+    linkedin: "",
+    github: "",
     instagram: "",
   },
   projects: [
     {
-      name: `morethan-log`,
-      href: "https://github.com/morethanmin/morethan-log",
+      name: `db365wil`,
+      href: "https://db136kidwil.notion.site/2738ade50210807088b5e5ca72f833b1?v=2738ade50210819a8005000ce360a780",
     },
   ],
   // blog setting (required)
   blog: {
-    title: "morethan-log",
-    description: "welcome to morethan-log!",
-    scheme: "dark", // 'light' | 'dark' | 'system'
+    title: "도봉구 영유아 복지정보자료집",
+    description: "도봉구 영유아의 건강한 성장을 돕기 위한 종합적인 정보를 담아 제작된 자료입니다. 자세한 내용은 서비스 제공 기관에 문의하시기 바랍니다.",
+    scheme: "system", // 'light'(밝음) | 'dark'(어두움) | 'system'(방문자 설정 따름)
   },
 
   // CONFIG configration (required)
-  link: "https://morethan-log.vercel.app",
-  since: 2022, // If leave this empty, current year will be used.
-  lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
+  link: "https://db365wil.vercel.app",
+  since: 2026, // If leave this empty, current year will be used.
+  lang: "ko-KR", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
 
   // notion configuration (required)
   notionConfig: {
-    pageId: process.env.NOTION_PAGE_ID,
+    pageId: process.env.NOTION_PAGE_ID || '2738ade50210807088b5e5ca72f833b1',
   },
 
   // plugin configuration (optional)
@@ -54,7 +54,7 @@ const CONFIG = {
     },
   },
   utterances: {
-    enable: true,
+    enable: false,
     config: {
       repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "",
       "issue-term": "og:title",
